@@ -1,0 +1,82 @@
+[
+    {
+        "id":1,
+        "name":"John Doe",
+        "email":"john.doe@example.com",
+        "phNo":"1234567890",
+        "address":"123 Main St.",
+        "image":""
+    },
+    {
+        "id":2,
+        "name":"Miller",
+        "email":"miller@example.com",
+        "phNo":"1234567891",
+        "address":"121 Main St.",
+        "image":""
+    },
+    { 
+        "id":3,
+        "name":"Smith",
+        "email":"smith@example.com",
+        "phNo":"1234567892",
+        "address":"122 Main St.",
+        "image":""
+    },
+    {
+        "id":4,
+        "name":"Allen",
+        "email":"allen@example.com",
+        "phNo":"1234567893",
+        "address":"124 Main St.",
+        "image":""
+    },
+    {
+        "id":5,
+        "name":"Sandy",
+        "email":"sandy@example.com",
+        "phNo":"1234567894",
+        "address":"125 Main St.",
+        "image":""
+    },
+    {
+        "id":6,
+        "name":"Trump",
+        "email":"trump@example.com",
+        "phNo":"1234567895",
+        "address":"126 Main St.",
+        "image":""
+    },
+    {
+        "id":7,
+        "name":"Obama",
+        "email":"obama@example.com",
+        "phNo":"1234567896",
+        "address":"127 Main St.",
+        "image":""
+    },
+    {
+        "id":8,
+        "name":"Ambani",
+        "email":"ambani@example.com",
+        "phNo":"1234567897",
+        "address":"128 Main St.",
+        "image":""
+    },
+    {
+        "id":9,
+        "name":"Kohli",
+        "email":"kohli@example.com",
+        "phNo":"1234567898",
+        "address":"129 Main St.",
+        "image":""
+    },
+    {
+        "id":10,
+        "name":"Dhoni",
+        "email":"dhoni@example.com",
+        "phNo":"1234567899",
+        "address":"130 Main St.",
+        "image":""
+    }
+]

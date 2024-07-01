@@ -1,0 +1,37 @@
+.form{
+    background-color: rgb(15, 201, 201);
+    height: auto;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input_div input{
+    height: 40px;
+    width: 400px;
+    border: 2px solid
+     rgb(50, 50, 236);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.input_div button{
+    background-color: green;
+    height: 40px;
+    width: 400px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin: 10px;
+}
+small{
+    color: red;
+}

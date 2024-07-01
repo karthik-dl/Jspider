@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 1rem;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 2rem;
+    font-weight: 500;
+}
+nav .logo img{
+    height: 60px;
+    width: 200px;
+}

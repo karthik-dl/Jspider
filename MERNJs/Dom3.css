@@ -1,0 +1,65 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.Login{
+    display:flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+
+}
+.email input{
+    height: 30px;
+    width: 240px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: 1px solid ;
+    
+
+}
+
+.Pass input{
+    height: 30px;
+    width: 240px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px solid ;
+}
+.btn button{
+    height: 30px;
+    width: 240px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: purple;
+    color:white;
+    border:none;
+}
+.box img{
+    /* margin-left: 800px; */
+    height:300px;
+    width: 300px;
+    align-items: center;
+    margin-left:300px ;
+
+
+    
+}
+.box{
+    border: 15px solid palevioletred;
+    align-items: center;
+    padding-left: 50px;
+    display: flex;
+
+}
+.contents{
+    display:inline-block;
+    justify-content: space-around;
+    padding: 150px;
+    margin-left: 100px;
+}

@@ -1,0 +1,75 @@
+body{
+    background-image: url(./Mallalli\ falls.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+/* a:hover{
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    // border: 1px solid white; 
+} */
+#one{
+    height: 30px;
+    width:80px;
+    opacity: 0.5;
+
+}
+button:hover{
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    color:white;
+}
+p{
+    font-size: 100px;
+    color:white;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+/* .content{
+    position: fixed;
+    width:300px;
+    height: 1000px;
+    color:black;
+    background-color: white;
+
+} */
+.signinpage{
+    margin-top: 150px;
+    height: 400px;
+    width: 300px;
+    border: 2px solid white;
+    margin-left: 950px;
+    padding-left: 75px;
+    padding-right: 75px;
+    color:white;
+}
+.scroll{
+    display: flex;
+    justify-content: space-evenly;
+}
+.one{
+    margin-top: 20px;
+    height: 100px;
+    width:100px;
+    border:2px solid white;
+    /* transition: 3s; */
+}
+.one:hover{
+    height: 200px;
+    width: 200px;
+}

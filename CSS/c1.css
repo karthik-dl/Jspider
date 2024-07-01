@@ -1,0 +1,9 @@
+/* External stylesheet it apply multiple lines */
+h3{  
+    background-color: blueviolet;
+    color:darkgreen;
+}
+h2{
+    background-color: black;
+    color:white;
+}

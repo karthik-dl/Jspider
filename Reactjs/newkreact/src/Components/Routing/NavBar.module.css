@@ -1,0 +1,10 @@
+.nav {
+    background-color: bisque;
+    padding-left: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+.nav a{
+    text-decoration: none;
+    margin: 20px;
+}

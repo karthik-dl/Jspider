@@ -1,0 +1,260 @@
+body{
+   margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    background-color:grey;
+   display:flex;
+   justify-content:space-around;
+   margin-top:50px;
+}
+.Container{
+    background-color: white;
+    border:5px solid darkgreen;
+    height:600px;
+    width:300px;
+    margin-left: 50px;
+    /* border-radius: 10px; */
+}
+.navbar{
+    /* position:fixed; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: cadetblue;
+}
+.camera-icon{
+    margin-top: 22px;
+    margin-left:40px ;
+
+}
+.search-icon{
+    margin-top:22px;
+}
+.bar{
+    margin-top: 22px;
+}
+.navbar2{
+    /* position:fixed; */
+    display: flex;
+    justify-content: space-around;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+p:hover{
+    text-decoration: underline;
+}
+.contact-icon{
+    margin-top: 17px;
+}
+.contact-icon:hover{
+    text-decoration: underline;
+}
+.chats-icon{
+    margin-top: 17px;
+}
+p{
+    font-weight:bold;
+}
+.m1 img{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    border:3px solid green;
+}
+.m1{
+    display:flex;
+    /* justify-content:space-evenly; */
+    padding-top:10px;
+    padding-left:10px;
+    /* align-items:center; */
+    /* color:white; */
+}
+.m1 a{
+    /* margin-top:5px; */
+    text-decoration:none;
+    margin-left:20px;
+    color:white;
+    font-weight:bold;
+
+}
+.mesg{
+    background-color:midnightblue;
+}
+.facebook{
+    height:600px;
+    width:300px;
+    border:3px solid blue;
+    background-color:white;
+    border-radius:20px;
+}
+.fnavbar{
+    /* position:fixed; */
+    display:flex;
+    justify-content:space-between;
+}
+.msg{
+    padding-top:20px;
+    padding-right:20px;
+}
+h3{
+    color:blue;
+    padding-left:20px;
+    font-weight:bold;
+    font-size:20px;
+}
+.search-icon2{
+    padding-top:22px;
+    padding-left:100px;
+}
+.fnavbar2{
+    display:flex;
+    justify-content:space-around;
+}
+.fnavbar2 i:hover{
+    /* text-decoration: underline; */
+    border-bottom:3px solid green;
+}
+.profile img{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    margin-left:10px;
+    margin-top:10px;
+}
+.box input{
+    height:45px;
+    width:200px;
+    border-radius:40px;
+    border:1px solid grey;
+    padding-left:15px;
+    margin-top:3px;
+}
+.file{
+    margin-top:20px;
+    margin-right:10px;
+}
+.fnavbar3{
+    display:flex;
+    justify-content:space-between;
+}
+.color{
+    height:4px;
+    margin-top:5px;
+    background-color:grey;
+}
+.reels{
+    height:100px;
+    display:flex;
+    padding-bottom:10px;
+}
+.card1{
+    display:flex;
+    height:95px;
+    width:60px;
+    margin-top:10px;
+    margin-left:10px;
+    border-radius:10px;
+    background-color:grey;
+    /* background-image:url("./me.png"); */
+    /* background-size:contain; */
+}
+.card1 img{
+    height:90px;
+    width:55px;
+    padding:2px;
+    border-radius:10px;
+    background-position:center;
+
+}
+.card2 img{
+    height:90px;
+    width:55px;
+    padding:2px;
+    border-radius:10px;
+}
+.card3 img{
+    height:90px;
+    width:55px;
+    padding:2px;
+    border-radius:10px;
+}
+.card4 img{
+    height:90px;
+    width:55px;
+    padding:2px;
+    border-radius:10px;
+}
+.card3{
+    display:flex;
+    height:95px;
+    width:60px;
+    margin-top:10px;
+    margin-left:10px;
+    border-radius:10px;
+    background-color:grey;
+}
+.card2{
+    display:flex;
+    height:95px;
+    width:60px;
+    margin-top:10px;
+    margin-left:10px;
+    border-radius:10px;
+    background-color:grey;
+}
+.card4{
+    display:flex;
+    height:95px;
+    width:60px;
+    margin-top:10px;
+    margin-left:10px;
+    border-radius:10px;
+    background-color:grey;
+}
+
+.pf img{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    margin-right:10px;
+}
+.pf{
+    margin-top:10px;
+    margin-left:10px;
+}
+.play{
+    display:flex;
+}
+.wrong{
+    margin-top:15px;
+    margin-left:20px;
+}
+.vi video{
+    height:100px;
+    width:100%;
+}
+h5{
+    margin-left:20px;
+}
+.pic{
+    display:flex;
+}
+.vk img{
+    height:40px;
+    width:40px;
+    border-radius:50%;
+    margin-top:10px;
+    margin-left:10px;
+}
+.vk h4{
+    font-size:50px;
+    font-weight:bold;
+}
+.w{
+    margin-top:10px;
+    margin-left:145px;
+}
+/* img {
+    overflow:scroll;
+    height:25px;
+    width:300px;
+} */

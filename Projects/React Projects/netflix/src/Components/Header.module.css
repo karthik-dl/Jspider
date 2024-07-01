@@ -1,0 +1,25 @@
+.topNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.navBar form{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+select{
+        background: rgba(0,0,0,.4);
+        border: 1px solid #aaa;
+        color: #fff;
+        font-size: .875rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-right: 20px;
+        border-radius: 8px;
+}
+.logo img{
+    height: 60px;
+    width: 180px;
+}

@@ -1,0 +1,24 @@
+.slider{
+   
+   background-color: rgb(8, 206, 246);
+   display: flex;
+   padding: 40px;
+   justify-content: center;
+   align-items: center;
+}
+
+.slider button {
+    height: 40px;
+    width: 80px;
+    margin: 20px;
+    background-color: rgb(106, 240, 106);
+    border: none;
+}
+img{
+    height: 400px;
+    width: 1000px;
+}
+/* .main{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */

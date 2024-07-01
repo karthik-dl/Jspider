@@ -1,0 +1,83 @@
+body{
+    align-items: center;
+}
+section{
+    height: 600px;
+    width:600px;
+    border:5px solid yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 50%;
+    background-color: yellow;
+}
+section nav{
+    height: 100px;
+    width:450px;
+    /* border:5px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section nav aside{
+    height: 100px;
+    width:100px;
+    /* border:3px solid black; */
+    border-radius: 50%;
+}
+section main{
+    height:60px ;
+    width: 30px;
+    /* border:3px solid red; */
+    background-color: black;
+    border-radius: 50%;
+}
+section article{
+    height: 100px;
+    width: 250px;
+    /* border: 3px solid yellowgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: yellowgreen;
+    border-radius: 0px 0px 2000px 2000px;
+}
+section nav :nth-child(1){
+    background-color:black;
+    border-radius: 100%;
+}
+section nav :nth-child(2){
+    background-color:black;
+    border-radius: 100%;
+}
+section article aside{
+    height: 70px;
+    width: 70px;
+    /* border: 3px solid; */
+    background-color: red;
+    border-radius: 0px 0px 100px 100px;
+    display: none;
+}
+/* section nav :hover:nth-child(1){
+    background-color:white;
+}
+section nav :hover:nth-child(2){
+    background-color:white;
+} */
+section:hover #eye1{
+    background-color: white;
+}
+section:hover #eye2{
+    background-color: white;
+}
+section:hover article aside{
+    display: block;
+}
+section:hover article {
+    background-color:white;
+}
+section main:hover{
+    height: 90px;
+    width: 50px;
+}

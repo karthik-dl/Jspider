@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            font-size:40px;
+        }
+        p::first-letter{
+            color:red;
+            font-size: 80px;
+
+        }
+        h1{
+            font-size: 50px;
+        }
+        h1::first-line{
+            color:aqua;
+        }
+        /* we can use before image will apper the before the text 
+        and we use the after image will aper the after the text */
+        h2::after{ 
+            content: url("./logo.png");
+        }
+        input::placeholder{
+            
+            text-shadow:0px 0px 0px black;
+            /* color:darkgreen; */
+            /* background-color: cadetblue; */
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Pseudo Elements</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui libero culpa, modi adipisci itaque beatae suscipit exercitationem vero repellendus mollitia, asperiores tempore similique laudantium magni velit repudiandae at eius blanditiis.</p>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et doloremque dolores explicabo cum ullam iste quasi perferendis dignissimos nobis, itaque iure ex excepturi quidem inventore laborum molestiae expedita amet odio.</h2>
+    <input placeholder="Enter your name" type="text">
+</body>
+</html>

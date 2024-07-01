@@ -1,0 +1,43 @@
+
+.main {
+    /* border: 2px solid red; */
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main1 {
+    /* border: 2px solid green; */
+    height: 490px;
+    width: 63%;
+    /* background-color: rgb(255, 251, 251); */
+}
+.dummy{
+    display: flex;
+    /* border: 2px solid yellow; */
+    height: 60px;
+    width: 500px;
+    justify-content:start;
+    align-items: center;
+    gap: 40px;
+}
+.dummy p{
+    font-size: 32px;
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
+
+}
+.flex{
+    display: flex;
+}
+.flex i{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.a2{
+    margin-left: 30px;
+}

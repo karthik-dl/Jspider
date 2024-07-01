@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+section{
+    background-color: #f7f7f5;
+    width:100%;
+}
+
+.First{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.head{
+    
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.head h1{
+    font-size: 34px;
+    font-weight: 100;
+    font-family: "Sora",Arial, Helvetica, sans-serif;
+}
+.searchBar{
+    margin-top: 35px;
+
+}
+.searchBar input{
+    height: 50px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding-left: 30px;
+}
+.searchBar button{
+    height: 50px;
+    background-color: black;
+    color: #ffff;
+    border-radius: 30px;
+    width: 100px;
+    position: relative;
+    right: 6rem;
+    margin-right: 100px
+}
+.searchBar button:hover{
+    background: #454343;
+    cursor: pointer;
+
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+
+}
+p{
+    font-weight: bold;
+    font-family: "Sora",Arial, Helvetica, sans-serif;
+}
+.Connect ul  i{
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 5%;
+}
+.Connect i:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+    line-height: 30px;
+    font-family: "Sora",Arial, Helvetica, sans-serif;
+    font-size: 13.5px;
+}
+.home  li:hover{
+    color: orange;
+    cursor: pointer;
+}
+.Industries li:hover{
+    color: orange;
+    cursor: pointer;
+}
+.Connect li:hover{
+    color:orange;
+    cursor: pointer;
+}
+.Service{
+    margin-top: 40px;
+}
+.policy{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #000;
+    color: #f2f2f2;
+    padding: 0 10%;
+    height: 4rem;
+    font-weight: 550;
+}
+.rights{
+    width: 70%;
+    font-size: 0.8rem;
+}
+.cookie{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cookie p {
+    margin-left: 2%;
+
+}
+.cookie p a {
+    color: #f2f1f2;
+    font-size: 0.8rem;
+}
+
+.cookie p a:hover{
+    text-decoration: none;
+
+}
+

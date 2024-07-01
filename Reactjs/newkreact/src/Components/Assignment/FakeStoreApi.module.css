@@ -1,0 +1,24 @@
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+  
+}
+.Card1{
+    border: 2px solid red;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 600px;
+    /* padding: 80px; */
+    background-color: rgb(244, 244, 145);
+    margin: 20px;
+    /* position: absolute; */
+}
+.Card1 img{
+    height: 200px;
+    width: 200px;
+}

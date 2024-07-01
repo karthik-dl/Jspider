@@ -1,0 +1,128 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    /* background-image:url("./Mullayanagiri.jpg"); */
+    background-size:cover;
+    background-repeat:no-repeat;
+    /* height: 100vh; */
+    margin-top:100px ;
+}
+h3{
+    color:black;
+    font-family: italic;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0 110px;
+}
+h1{
+    color:black;
+    font-size: 80px;
+    font-weight: bolder;
+    /* opacity: 0.6; */
+    margin:0 110px;
+    
+
+}
+h2{
+    color:black;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 400px;
+}
+table,th,td{
+    border:1px solid white;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding:10px;
+    color: white;
+}
+.back-video{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: auto;
+    height: auto;
+    background-size:cover;
+    /* background-position: center; */
+}
+.buttons{
+    /* display: flex; */
+    justify-content: space-evenly;
+    
+}
+.buttons button{
+    height:30px;
+    width:100px;
+    border:none;
+    opacity: 0.5;
+}
+.section{
+    background: url("./356237198_568864305457334_7920665954918186743_n.webp.jpg");
+    /* background-size: cover; */
+    height: 600px;
+    background-position: center;
+    margin-top: 100px;
+
+}
+.box{
+    display: flex;
+    /* justify-content: space-between; */
+    width:500px;
+    margin: 100px auto 0px auto;
+}
+h4{
+    text-align: center;
+    padding:20px;
+}
+.page1{
+    
+    margin-top: 300px;
+    margin-left: 10px;
+    background-color:rgba(0,0,0,0);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border:1px solid rgba(255,255,255,0.8);
+    box-shadow: 2px,2px,15px rgba(0,0,0,0.3);
+    color:white;
+    padding: 20px;
+    /* margin-left:100px; */
+}
+.page2{
+    height: 250px;
+    margin-top: 300px;
+    margin-left: 10px;
+    background-color:rgba(0,0,0,0);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    border:1px solid rgba(255,255,255,0.8);
+    box-shadow: 2px,2px,15px rgba(0,0,0,0.3);
+    color:white;
+    padding-left: 20px;
+    margin-left: 200px;
+
+
+}
+.page1 button:hover{
+    align-items: center;
+    height: 20px;
+    width:60px;
+    border-radius: 7px;
+    opacity: 0.3;
+}
+input{
+    opacity: 0.3;
+    border-color:none;
+}
+.page2 button:hover{
+    align-items: center;
+    height: 20px;
+    width:60px;
+    border-radius: 7px;
+    opacity: 0.3;
+}

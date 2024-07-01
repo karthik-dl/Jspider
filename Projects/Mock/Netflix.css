@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}  
+
+.header{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo img{
+    height:50px;
+    padding-top: 10px;
+}
+.box button{
+    background-image: none;
+    padding :5px;
+    border-radius:5px;
+    background-color:red;
+    margin-left:20px;
+}
+.box select{
+    background-image: none;
+    padding:5px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.tv img{
+    
+    height:300px;
+    width:300px;
+    margin-right:150px ;
+
+}
+
+.nav{
+    background-image: none;
+    font-size: 20px;
+    color:white;
+    padding:200px;
+    justify-content: space-around;
+}
+.content{
+    color:white;
+    font-size:20px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:50px;
+    margin-left: 200px;
+}
+.email input{
+    height:50px;
+    width:200px;
+    margin-left: 200px;
+}
+.email button{
+    height:50px;
+    width:100px;
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+}
+.mian{
+    background-color: black;
+    margin-top: 10px;
+
+}
+.

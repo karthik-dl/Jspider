@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+.place{
+    display:flex;
+    justify-content:space-between;
+    /* margin-top: 100px; */
+}
+.place img{
+    height: 200px;
+    width:200px;
+    /* justify-content: space-between; */
+}

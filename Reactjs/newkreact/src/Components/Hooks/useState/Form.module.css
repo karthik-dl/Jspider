@@ -1,0 +1,48 @@
+.conatiner{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+    margin-top: 400px;
+}
+.card{
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50%;
+    border-radius: 50px;
+    color: white;
+    box-shadow: 2px 0px 10px rgb(223, 10, 10);
+
+}
+.data input{
+    margin: 3px;
+    padding:10px;
+    width:250px;
+   border-radius: 10px;
+   border: 1px solid black;
+}
+.data input:hover{
+    background-color: rgb(112, 212, 212);
+    color: white;
+   
+}
+.data button{
+    margin-left: 30%;
+    padding: 10px;
+    background-color: darkcyan;
+    border: none;
+    border-radius: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 100px;
+    cursor: pointer;
+}
+.data button:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.top {
+  height: 200px;
+  background-color: #ff9933;
+}
+.middle {
+  background-image: url(./ashokachakra.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  height: 230px;
+  background-color: white;
+}
+.bottom {
+  height: 200px;
+  background-color: green;
+}

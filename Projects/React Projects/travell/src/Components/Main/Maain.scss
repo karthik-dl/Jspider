@@ -1,0 +1,197 @@
+:root{
+    --PrimaryColor: hsl(199,100%,33%);
+    --SecondaryColor:hsl(187,85%,43%);
+    --gradientColor:linear-gradient(to right,hsl(187.85%,43%),hsl(199,100%,33%));
+    --whiteColor:hsl(0,0%,100%);
+    --blackColor:hsl(201,33%,16%);
+    --textColor:hsl(240,4%,36%);
+    --whiteColorDream:hsl(0,0%,93%);
+    --grayText:rgb(190,190,190);
+    --inputColor:rgb(239,239,239);
+    --bodyColor:rgb(240,240,246);
+    --cardBG:rgb(225,225,235);
+    --cardHover:rgb(255,255,255);
+}
+
+.main{
+    width: 100%;
+
+    .secTitle{
+        .title{
+            position: absolute;
+            width: max-content;
+            color:hsl(240,4%,36%);
+            margin: -3rem 0;
+            z-index: 2;
+            
+            &::after{
+                position: absolute;
+                content: '';
+                height: 5px;
+                width: 120px;
+                // background:hsl(187,85%,43%);
+                right: 0;
+                bottom: 5px;
+                z-index: -1;
+            }
+        }
+    }
+
+    .secContent{
+        justify-content: space-between;
+        gap:1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        border-radius: 10px;
+        grid-template-columns: 1fr 60px;
+        // grid-template-columns: 60px 60px;
+
+        .singleDestination{
+            height: 100%;
+            display: grid;
+            // width: 25%;
+            row-gap: 10px;
+            border-radius: 10px;
+            // grid-template-columns: 1fr 60px;
+            align-items: center;
+            background:rgb(225,225,235);
+            box-shadow: 0 2px 4px rgb(140,140,140,0.549);
+            overflow: hidden;
+            padding: 1rem;
+            width: 300px;
+
+            &:hover{
+                background: rgb(255,255,255);
+                box-shadow: 1 4px 4px rgb(85,85,114,0.549);
+                transform: .3s ease-in-out;
+            }
+
+            .imgDiv{
+                height: 100%;
+                width: 100%;
+                overflow: hidden;
+              
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    transition: 2s ease-in-out;
+                
+
+                &:hover{
+                    img{
+                        transform: scale(1.1);
+                    }
+                }
+            }
+            
+            }
+
+            .cardInfo{
+                padding: 1rem;
+
+                .destTitle{
+                    color: hsl(201,33%,16%);
+                    font: size 1.25em;
+                }
+
+                .content{
+                    gap: .5rem;
+
+                    .icon{
+                        color: hsl(240,4%,36%);
+                        font-size: 18px;
+                    }
+
+                    .name{
+                        color: hsl(240,4%,36%);
+                        font-weight: 400;
+                        font-size: 14px;
+                    }
+                }
+
+                .fees{
+                    width: 100%;
+                    justify-content: space-between;
+                    padding: 1rem;
+                    margin: 1rem 0;
+                    border-top: 1.5px solid rgb(190,190,190);
+                    border-bottom: 1.5px solid rgb(190,190,190);
+
+                    .grade{
+                        color: hsl(240,4%,36%);
+                        max-width: 100px;
+                        line-height: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        small{
+                            text-align: center;
+                            background: hsl(199,100%,33%);
+                            border-radius: 1rem;
+                            color: white;
+                            padding: 1px 10px;
+                            font-size: 10px;
+                            margin-left: 5px;
+                        }
+                    }
+
+                    .price{
+                        font-size: 2rem;
+                        color: hsl(201,33%,16%);
+                    }
+                }
+
+                .desc{
+                    font-size: 14px;
+                    color: hsl(240,4%,36%);
+                    font-weight: 500;
+                }
+
+                .btn{
+                    margin-top: 1rem;
+                    color: white;
+                    font-weight: 600;
+                    justify-content: space-between;
+                    gap: .5rem;
+                    background: hsl(199,100%,33%);
+
+                    .icon{
+                        align-self: center;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:500px){
+    title{
+        font-size:1.5rem;
+        &::after{
+            width:155px !important;
+        }
+    }
+
+    .secContent{
+        grid-template-columns:repeat(2,1fr);
+
+        .singleDestination{
+            height:auto;
+        }
+    }
+}
+
+@media screen and (max-width:840px){
+    .secContent{
+        grid-template-columns:repeat(3,1fr);
+
+        
+        .singleDestination{
+            height:auto;
+        }
+    }
+}
